@@ -4,9 +4,7 @@ body{
     color: rgb(247, 217, 51);
     overflow: visible;
     min-height: 100vh!important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 
@@ -16,7 +14,6 @@ body{
 
 @media (min-width: 768px){
     .notebook{
-        
         border-radius: 29px 29px 29px 29px;
         -moz-border-radius: 29px 29px 29px 29px;
         -webkit-border-radius: 29px 29px 29px 29px;
