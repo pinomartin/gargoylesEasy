@@ -2,8 +2,7 @@ body{
     background-color: crimson!important;
     font-family: monospace;
     color: rgb(247, 217, 51);
-    min-height: 100vh;
-    overflow: hidden;
+   
 }
 
 .notebook{
@@ -16,8 +15,12 @@ body{
         border-radius: 29px 29px 29px 29px;
         -moz-border-radius: 29px 29px 29px 29px;
         -webkit-border-radius: 29px 29px 29px 29px;
-        padding: 2rem;
+        padding: 1rem;
         
+    }
+    iframe{
+        width: 400px!important;
+        height: 800px;
     }
 }
 
