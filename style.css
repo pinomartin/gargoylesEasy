@@ -1,34 +1,42 @@
+:root{
+    --primary-color: rgb(247, 217, 51);
+    --secondary-color: crimson;
+}
+
 body{
-    background-color: crimson!important;
+    background-color: var(--secondary-color);
     font-family: monospace;
-    color: rgb(247, 217, 51);
+    color: var(--primary-color);
     overflow: visible;
     min-height: 100vh!important;
 
 }
 
+.frame-container{
+    padding: 0;
+    margin: 0;
+}
 
 .notebook{
     background-color: lightcoral;
+    border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    border: double 10px var(--secondary-color);
 }
 
+
+
 @media (min-width: 768px){
-    .notebook{
-        border-radius: 29px 29px 29px 29px;
-        -moz-border-radius: 29px 29px 29px 29px;
-        -webkit-border-radius: 29px 29px 29px 29px;
-        
-        
-    }
     iframe{
-        width: 400px!important;
-        height: 800px;
+        padding: 1rem 3rem;
+        height: 70vh;
     }
 }
 
 
 @media (max-width: 768px){
     footer{
-        padding: 2rem ;
+        padding: 2rem 0;
     }
 }
