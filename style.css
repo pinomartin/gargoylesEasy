@@ -1,0 +1,29 @@
+body{
+    background-color: crimson!important;
+    font-family: monospace;
+    color: rgb(247, 217, 51);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.notebook{
+    background-color: lightcoral;
+}
+
+@media (min-width: 768px){
+    .notebook{
+        
+        border-radius: 29px 29px 29px 29px;
+        -moz-border-radius: 29px 29px 29px 29px;
+        -webkit-border-radius: 29px 29px 29px 29px;
+        padding: 2rem;
+        
+    }
+}
+
+
+@media (max-width: 768px){
+    footer{
+        padding: 2rem ;
+    }
+}
