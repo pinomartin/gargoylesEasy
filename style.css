@@ -2,8 +2,13 @@ body{
     background-color: crimson!important;
     font-family: monospace;
     color: rgb(247, 217, 51);
-   
+    overflow: visible;
+    min-height: 100vh!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .notebook{
     background-color: lightcoral;
